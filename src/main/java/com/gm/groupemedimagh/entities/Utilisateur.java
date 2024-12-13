@@ -30,7 +30,6 @@ public class Utilisateur implements Serializable {
 
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    @JsonIgnore
     private List<BLUser> blUsers;
 
 }

@@ -28,8 +28,6 @@ public class Reclamation implements Serializable {
 
    private String ImageJustificatif;
 
-
-
 //    private  String BL_ID ;
 
     @ManyToOne

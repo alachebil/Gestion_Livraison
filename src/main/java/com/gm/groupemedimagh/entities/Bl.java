@@ -37,12 +37,10 @@ public class Bl implements Serializable {
 
 
  @OneToMany(mappedBy = "bl", cascade = CascadeType.ALL)
- @JsonIgnore
  private List<Reclamation> reclamations;
 
 
  @OneToMany(mappedBy = "bl", cascade = CascadeType.ALL)
- @JsonIgnore
  private List<BLUser> blUsers;
 
  @OneToOne
