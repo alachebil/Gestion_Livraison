@@ -17,11 +17,10 @@ public class BLUser implements Serializable {
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "bl_id")
     private Bl bl;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private Utilisateur utilisateur;
+    private Utilisateur user;
 
 }
